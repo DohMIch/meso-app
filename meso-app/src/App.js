@@ -1,10 +1,12 @@
 import "./App.css";
-import Navigation from "./Components/Navigation/Navbar/Nav";
+import Footer from "./Components/Footer/Footer";
+import Navigation from "./Components/Navigation/Navbar/Navigation";
 
 const App = () => {
   return (
     <div className="App">
       <Navigation />
+      <Footer />
     </div>
   );
 };

@@ -1,4 +1,8 @@
-.pageLinks {
-  display: flex;
-  justify-content: space-between;
+.navbar {
+    height:60px;
+}
+
+.logo {
+    color: white;
+    font-family: 'Caveat', cursive;
 }
