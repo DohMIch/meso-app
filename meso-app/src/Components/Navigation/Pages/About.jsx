@@ -1,9 +1,10 @@
 import React from "react";
+import "../Styles/Nav-Styles.css";
 
 const About = () => {
   return (
-    <div>
-      <h1>About Bitch!</h1>
+    <div className="content">
+      <h1>About Page</h1>
     </div>
   );
 };

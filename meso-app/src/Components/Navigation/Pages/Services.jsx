@@ -1,9 +1,10 @@
 import React from "react";
+import "../Styles/Nav-Styles.css";
 
 const Services = () => {
   return (
-    <div>
-      <h1>Services Bitch!</h1>
+    <div className="content">
+      <h1>Services Page</h1>
     </div>
   );
 };
