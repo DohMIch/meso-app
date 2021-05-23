@@ -1,5 +1,5 @@
 import React from "react";
-import image1 from "../../../Images/logo.jpeg";
+// import image1 from "../../../Images/logo.jpeg";
 import image2 from "../../../Images/linda_smiles.jpeg";
 import image3 from "../../../Images/linda_yellow_outfit.jpeg";
 import image4 from "../../../Images/linda_orange_jumpsuit.jpeg";
