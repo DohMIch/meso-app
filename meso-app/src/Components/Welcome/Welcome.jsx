@@ -1,12 +1,13 @@
 import "./Welcome.css";
 import React from "react";
-import ImageSlider from "./ImageSlider/Carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
+import Carousel from "./ImageSlider/Carousel";
+import logo from "../../Images/image/logo.jpeg";
 
 const Welcome = () => {
   return (
     <div className="main-page">
-      <ImageSlider />
+      <img src={logo} alt="logo" className="logoImage" />
+      <Carousel />
     </div>
   );
 };

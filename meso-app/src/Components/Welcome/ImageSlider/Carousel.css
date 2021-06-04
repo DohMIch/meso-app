@@ -1,0 +1,98 @@
+.image {
+    width: 550px;
+    height: 550px;
+    border-radius: 5%;
+}
+
+.imageCarousel {
+    height: 600px;
+    width: 600px;
+    overflow: scroll;
+}
+
+.desc {
+    text-align: center;
+}
+
+.LogoImage {
+    height: 600px;
+    width: 600px;
+    border-radius: 5%;
+}
+
+@media (max-width: 1500px) {
+    .image {
+        width: 450px;
+        height: 450px;
+        border-radius: 5%;
+    }
+
+    .imageCarousel {
+        height: 500px;
+        width: 500px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1300px) {
+    .image {
+        width: 350px;
+        height: 400px;
+        border-radius: 5%;
+    }
+
+    .imageCarousel {
+        height: 450px;
+        width: 400px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .desc {
+        text-align: center;
+    }
+}
+
+@media (max-width: 1120px) {
+    .image {
+        height: 600px;
+        width: 600px;
+        border-radius: 5%;
+    }
+
+    .imageCarousel {
+        max-height: 650px;
+        width: 650px;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+@media only screen and (min-width: 1150px) and (max-width: 2000px) {
+    .LogoImage {
+        display: none;
+    }
+}

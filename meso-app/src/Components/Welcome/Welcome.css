@@ -1,0 +1,31 @@
+.main-page {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logoImage {
+    border: 1px solid black;
+    height: 600px;
+    width: 600px;
+    overflow: scroll;
+    border-radius: 5%;
+}
+
+@media (max-width:1500px) {
+    .main-page {
+        padding-top: 30px;
+    }
+}
+
+@media (max-width:1120px) {
+    .main-page {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+    }
+
+    .logoImage {
+        display: none;
+    }
+}
