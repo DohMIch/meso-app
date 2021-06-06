@@ -1,3 +1,4 @@
+import image1 from "./image/logo.jpeg";
 import image2 from "./image/linda_yellow_outfit.jpeg";
 import image3 from "./image/linda_smiles_bliue_dress.jpeg";
 import image4 from "./image/linda_smiles.jpeg";
@@ -9,6 +10,15 @@ import image9 from "./image/the_man_himself.jpeg";
 import image10 from "./image/orange_wear_tv_backdrop.jpeg";
 
 export const images = [
+  {
+    img: image1,
+    desc: `Welcome to Mesolin. Please scroll ${
+      window.innerWidth < 1500
+        ? "down for more previews"
+        : "right for more previews"
+    }`,
+    id: 0,
+  },
   {
     img: image2,
     desc: "Ms Mesolin in a pretty yellow outfit.",

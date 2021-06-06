@@ -2,34 +2,30 @@
     width: 550px;
     height: 550px;
     border-radius: 5%;
+    margin-right: 50px;
 }
 
 .imageCarousel {
     height: 600px;
-    width: 600px;
+    width: 75vw;
     overflow: scroll;
+    display: flex;
 }
 
 .desc {
     text-align: center;
 }
 
-.LogoImage {
-    height: 600px;
-    width: 600px;
-    border-radius: 5%;
-}
-
 @media (max-width: 1500px) {
     .image {
-        width: 450px;
-        height: 450px;
+        width: 515px;
+        height: 515px;
         border-radius: 5%;
     }
 
     .imageCarousel {
-        height: 500px;
-        width: 500px;
+        height: auto;
+        width: auto;
         overflow: scroll;
         display: flex;
         flex-direction: column;
@@ -41,16 +37,16 @@
     }
 }
 
-@media (max-width: 1300px) {
+@media (max-width: 1440px) {
     .image {
-        width: 350px;
-        height: 400px;
+        width: 440px;
+        height: 60vh;
         border-radius: 5%;
     }
 
     .imageCarousel {
-        height: 450px;
-        width: 400px;
+        height: 66vh;
+        width: 65vw;
         overflow: scroll;
         display: flex;
         flex-direction: column;
@@ -64,14 +60,14 @@
 
 @media (max-width: 1120px) {
     .image {
-        height: 600px;
-        width: 600px;
+        height: 60vh;
+        width: 55vw;
         border-radius: 5%;
     }
 
     .imageCarousel {
-        max-height: 650px;
-        width: 650px;
+        max-height: auto;
+        width: auto;
         overflow: scroll;
         display: flex;
         flex-direction: column;
@@ -90,9 +86,60 @@
     }
 }
 
+@media (max-width: 700px) {
+    .image {
+        height: 480px;
+        width: 340px;
+        border-radius: 5%;
+    }
 
-@media only screen and (min-width: 1150px) and (max-width: 2000px) {
-    .LogoImage {
-        display: none;
+    .imageCarousel {
+        max-height: auto;
+        width: auto;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .desc {
+        text-align: center;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 550px) {
+    .image {
+        height: 180px;
+        width: 240px;
+        border-radius: 5%;
+    }
+
+    .imageCarousel {
+        max-height: auto;
+        width: auto;
+        overflow: scroll;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+
+    .desc {
+        width: 200px;
+        text-align: center;
+        word-wrap: break-word;
+    }
+
+    .content {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }
