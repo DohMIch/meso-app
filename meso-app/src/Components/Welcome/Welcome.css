@@ -16,10 +16,40 @@
     }
 }
 
+@media (min-height:667px) {
+    .main-page {
+        margin-top: -40px;
+    }
+}
+
 @media (max-width:1120px) {
     .main-page {
         display: flex;
         flex-direction: column;
         padding-top: 30px;
+    }
+}
+
+@media (min-height:1336px) {
+    .main-page {
+        margin-top: 60px;
+    }
+}
+
+@media (min-height:1024px) {
+    .main-page {
+        margin-top: 60px;
+    }
+}
+
+@media (max-height:812px) {
+    .main-page {
+        margin-top: 20px;
+    }
+}
+
+@media (max-height:640px) {
+    .main-page {
+        margin-top: -20px;
     }
 }
